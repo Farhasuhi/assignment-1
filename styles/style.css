@@ -132,14 +132,12 @@
 
 /* linaer gradient*/
 .banner-2-detail {
-    /* background-image: url('../images/watch.png'); */
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
     background-repeat: no-repeat;
     height: 300px;
     width: 900px;
-    margin: 130px 100px 0 240px;
+    margin: 130px 100px 0 350px;
     border-radius: 8px;
-
 }
 
 .banner-2-detail-title {
@@ -151,7 +149,7 @@
 
 }
 
-.btn-secondary {
+.btn-2nd {
     font-family: 'Work Sans', sans-serif;
     border: none;
     color: #F15B22;
@@ -161,4 +159,102 @@
     border-radius: 5px;
     padding: 20px 36px;
     margin: 24px 0 0 64px;
+}
+
+/* footer part of style in the website */
+.footer {
+    background: #151414;
+    margin-top: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 130px 0;
+}
+.footer-left-detail{
+    margin-left: 46px;
+}
+
+
+.footer-left-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.footer-left-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 16px;
+}
+
+.email {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 24px;
+}
+
+.phone {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 16px;
+}
+
+.social-account {
+    margin-top: 45px;
+}
+
+.social-account ul {
+    display: flex;
+    gap: 5%;
+}
+
+.social-account li {
+    list-style: none;
+    padding: 15px 20px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    font-size: 20px;
+}
+
+.subscribe {
+
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
+    font-family: 'Work Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+.input {
+    border: 1px solid #FFFFFF;
+    color: #F3F3F3;
+    border-radius: 8px;
+    Width: 325px;
+    Height: 64px;
+    font-family: 'Work Sans', sans-serif;
+    background: #151414;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.btn-3rd {
+    font-family: 'Work Sans', sans-serif;
+    border: none;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px 36px;
+
 }
