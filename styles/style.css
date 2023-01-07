@@ -258,3 +258,30 @@
     padding: 20px 36px;
 
 }
+/* blog part of style */
+.blog{
+    display: flex;
+    justify-content: space-around;
+    gap:10%;
+    padding: 150px 200px 0 200px;
+}
+.blog-img img{
+    height: 500px;
+    width: 600px;
+    border: 3px solid grey;
+}
+.blog-details h3{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.blog-details p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Work Sans', sans-serif;
+    color: #444343;
+    margin-bottom: 20px;
+}
