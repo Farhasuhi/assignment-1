@@ -11,9 +11,10 @@
 }
 
 .banner {
-    text-align: right;
-    padding: 200px 230px 845px 0px;
-
+    text-align: right;   
+    position: absolute;
+    left: 60%;
+    top:20%;
 }
 
 .banner-title {
