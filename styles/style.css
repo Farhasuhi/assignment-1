@@ -129,3 +129,36 @@
     font-family: 'Work Sans', sans-serif;
     margin-top: 16px;
 }
+
+/* linaer gradient*/
+.banner-2-detail {
+    /* background-image: url('../images/watch.png'); */
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 900px;
+    margin: 130px 100px 0 450px;
+    border-radius: 8px;
+
+}
+
+.banner-2-detail-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+    padding: 59px 0 0 64px;
+
+}
+
+.btn-secondary {
+    font-family: 'Work Sans', sans-serif;
+    border: none;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px 36px;
+    margin: 24px 0 0 64px;
+}
