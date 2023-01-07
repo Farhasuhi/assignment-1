@@ -104,7 +104,7 @@
 .myplans {
     display: flex;
     justify-content: center;
-    gap: 129px;
+    gap: 80px;
     padding: 50px 50px;
 
 }
@@ -125,7 +125,7 @@
 .myplan-description {
     color: #737272;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Work Sans', sans-serif;
     margin-top: 16px;
 }
