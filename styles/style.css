@@ -263,7 +263,7 @@
     display: flex;
     justify-content: space-around;
     gap:10%;
-    padding: 150px 200px 0 200px;
+    padding: 180px 200px 50px 200px;
 }
 .blog-img img{
     height: 300px;
