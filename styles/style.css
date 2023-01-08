@@ -266,7 +266,8 @@
     padding: 150px 200px 0 200px;
 }
 .blog-img img{
-
+    height: 300px;
+    width: 400px;
     border: 3px solid grey;
 }
 .blog-details h3{
